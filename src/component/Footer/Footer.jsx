@@ -3,7 +3,7 @@ import logo from '../../logo.svg'
 export default function Footer() {
   return <>
   <footer className='bg-dark text-white text-center py-3 mt-auto' style={{ position: 'fixed', bottom: 0, width: '100%' }}>
-    <div className="container">
+{/*     <div className="container">
       <div className="row">
         <div className="col">
           <img src={logo} alt="Logo" width="50" height="50" className="mb-2" />
@@ -15,7 +15,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
   </footer>
   </>
 }
